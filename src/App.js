@@ -84,7 +84,7 @@ function TodoApp() {
               checked={todo.completed}
               onChange={() => toggleTodo(todo.id)}
             />
-            <span className="todo-text">{todo.completed ? 'Task done' : todo.text}</span>
+            <span className="todo-text">{todo.completed ? 'Đã hoàn Thành' : todo.text}</span>
             {todo.completed && (
               <button onClick={() => deleteTodo(todo.id)} className="delete-button">
                 🗑️
